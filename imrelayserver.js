@@ -20,7 +20,7 @@ app.get('/imrelaypx.gif', function (req, res, next) {
   io.emit(req.query.a, {
     ip: req.ip,
     ua: req.headers['user-agent'],
-    qs: req.query.a
+    url: req.originalUrl
   });
 
   emptygif.sendEmptyGif(req, res, {

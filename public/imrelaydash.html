@@ -18,13 +18,14 @@
   </style>
 </head>
 <body>
-  <h1>Realtime pixel tracking dashboard</h1>
-
+  <h1>Relay Dashboard:     </h1>
+<p>Create a dynamic event message part of your query string that you want to track. </p>
  <div>
 <form>
 <label>Enter the Message ID:</label>
 <input name="message" id="message" type=text>
 <button type=button id="setmsg" >Set Message</button>
+<h4 id="sampleurl"></h4>
 </form>
  </div>
   <div class="visits"></div>
@@ -40,9 +41,12 @@
 var msg = "hit";
 $('#setmsg').click(function(){
  
- msg= $("#message").val();
-  alert(msg);
+  msg= $("#message").val();
+var urlstr = "http://localhost:3000/imrelaypx.gif?a=" + msg + "&h=somestring";
 
+ $("#sampleurl").text("Sample Url: \n" + urlstr);
+ 
+  alert("Your tracking message now set to: " + msg); 
 
       socket.on(msg, function(visit) {
       console.log(msg);
@@ -50,7 +54,7 @@ $('#setmsg').click(function(){
         newItem += '<span class="date">' + moment().format('MMMM Do YYYY, HH:mm:ss') + '</span>';
         newItem += '<span class="ip">' + visit.ip + '</span>';
         newItem += '<span class="ua">' + visit.ua + '</span></div>';
-        newItem += '<span class="qs">' + visit.qs + '</span></div>';
+        newItem += '<span class="url">' + visit.url + '</span></div>';
         containerEl.append(newItem);
       });
 }); 
