@@ -1,0 +1,46 @@
+{
+  "name": "im-relay",
+  "description": "email Verify",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.x",
+    "logger": "0.0.1"
+  },
+  "engines": {
+    "node": "^0.8.4",
+    "npm": "1.1.49"
+  },
+  "main": "imrelayserver.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indo-mars-technologies/im-relay.git"
+  },
+  "keywords": [
+    "relay",
+    "IOT",
+    "device",
+    "email",
+    "tracking",
+    "query",
+    "string",
+    "with",
+    "websocket",
+    "instant",
+    "generic",
+    "webhook.",
+    "hackathon",
+    "tool"
+  ],
+  "author": "Moorthi P.V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indo-mars-technologies/im-relay/issues"
+  },
+  "homepage": "https://github.com/indo-mars-technologies/im-relay#readme"
+}
