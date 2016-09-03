@@ -5,8 +5,10 @@
   "private": true,
   "dependencies": {
     "body-parser": "^1.15.2",
+    "emptygif": "^0.1.1",
     "express": "^4.x",
-    "logger": "0.0.1"
+    "logger": "0.0.1",
+    "socket.io": "^1.4.8"
   },
   "engines": {
     "node": "^0.8.4",

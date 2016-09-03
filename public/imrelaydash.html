@@ -48,9 +48,9 @@ $('#setmsg').click(function(){
       console.log(msg);
         var newItem = '<div class="visit">';
         newItem += '<span class="date">' + moment().format('MMMM Do YYYY, HH:mm:ss') + '</span>';
-        newItem += '<span class="ip">' + visit.req.ip + '</span>';
-        // newItem += '<span class="ua">' + visit.ua + '</span></div>';
-        // newItem += '<span class="qs">' + visit.qs + '</span></div>';
+        newItem += '<span class="ip">' + visit.ip + '</span>';
+        newItem += '<span class="ua">' + visit.ua + '</span></div>';
+        newItem += '<span class="qs">' + visit.qs + '</span></div>';
         containerEl.append(newItem);
       });
 }); 
