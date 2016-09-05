@@ -1,10 +1,14 @@
-"# im-relay" 
+# im-relay
 
 Simple and quick way to track your  IOT devices and messages,  email open status,  click tracking, etc. 
 
 Technology: Node.js, socket.io
 
-Tracking URL:
+# [Demo URL] (http://indo-mars.com/imrelay)
+
+[http://indo-mars.com/imrelay] http://indo-mars.com/imrelay
+
+# Tracking URL:
 
 http://localhost:3000/imrelaypx.gif?a=trackmessage 
 
@@ -15,7 +19,7 @@ http://localhost:3000/imrelaydash.html
 1. Set your trackmessage in Dashboard page . 
 2. Replace the trackmessage in the Tracking URL.
 
-Ex:
+## Example:
 In Dashboard if you set your ,
 Tracking Message ID: 'Hits'
 
