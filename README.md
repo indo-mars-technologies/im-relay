@@ -8,6 +8,12 @@ Technology: Node.js, socket.io
 
  http://indo-mars.com/imrelay
 
+# To try
+1. Clone or Download this repository
+2. Run 'npm install'
+3. Run 'node imrelayserver.js'
+4. Open two URLs as below
+
 # Tracking URL:
 
 http://localhost:3000/imrelaypx.gif?a=trackmessage 
