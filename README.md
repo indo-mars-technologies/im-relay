@@ -6,7 +6,7 @@ Technology: Node.js, socket.io
 
 # [Demo URL] (http://indo-mars.com/imrelay)
 
-[http://indo-mars.com/imrelay] http://indo-mars.com/imrelay
+ http://indo-mars.com/imrelay
 
 # Tracking URL:
 
